@@ -1,5 +1,5 @@
--- fullcycle.users definition
-CREATE TABLE `users` (
+-- user_database.users definition
+CREATE TABLE IF NOT EXISTS `users` (
     `id` bigint(20) NOT NULL AUTO_INCREMENT,
     `name` varchar(100) DEFAULT NULL,
     `email` varchar(100) DEFAULT NULL,
